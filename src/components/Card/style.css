@@ -1,0 +1,32 @@
+.form-container {
+  width: 100%;
+  max-width: 125rem;
+  height: 27rem;
+  background-color: var(--extra-light-blue);
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.6rem;
+  padding: 5.4rem 3rem;
+}
+
+.form-container label {
+  font-size: 3.8rem;
+  font-weight: 500;
+  line-height: 4.6rem;
+}
+
+.form-container input {
+  width: 30rem;
+  height: 4rem;
+  background-color: var(--white);
+  border: 1px solid var(--light-gray);
+  border-radius: 0.4rem;
+  padding: 0.8rem 1.7rem;
+  margin-top: 1.2rem;
+}
+
+.form-container input::placeholder {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--medium-gray);
+}
