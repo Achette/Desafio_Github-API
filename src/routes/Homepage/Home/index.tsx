@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { Button } from "../../../components";
 import "./style.css";
 
 export const Home = () => {
@@ -12,12 +13,7 @@ export const Home = () => {
     <section className="home-container">
       <h2>Desafio Github API</h2>
       <p>DevSuperior - Escola de programação</p>
-      <button
-        title="Clique para começar!"
-        onClick={() => handleGoToStartPage()}
-      >
-        Começar
-      </button>
+      <Button text={`Começar`} onClick={handleGoToStartPage} type={`button`} />
     </section>
   );
 };
