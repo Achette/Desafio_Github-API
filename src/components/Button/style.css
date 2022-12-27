@@ -1,0 +1,16 @@
+button {
+  width: 10.01rem;
+  height: 4rem;
+  background-color: var(--light-blue);
+  border-radius: 0.4rem;
+  outline: none;
+  border: none;
+  color: var(--white);
+  margin-top: 3rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+button:hover {
+  background-color: var(--blue);
+}
