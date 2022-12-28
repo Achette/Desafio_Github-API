@@ -1,8 +1,10 @@
 import React from "react";
+import { cardProps } from "../../types";
 import { Button } from "../Button";
 import "./style.css";
 
-export const Card = () => {
+
+export const Card = ({ captureUser }: cardProps) => {
   const [user, setUser] = React.useState<string>("");
 
   const handleChangeUser = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -11,7 +13,7 @@ export const Card = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log(user);
+    captureUser(user);
   };
 
   return (
