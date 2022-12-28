@@ -1,5 +1,19 @@
 .start-container {
   padding-top: 5.4rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.error-message p {
+  font-weight: 500;
+  font-size: 3.8rem;
+  line-height: 4.6rem;
+  margin-top: 6.4rem;
+  color: var(--dark-gray);
+}
+
+.start-content {
+  width: 125rem;
 }
