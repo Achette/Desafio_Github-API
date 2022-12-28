@@ -1,0 +1,44 @@
+.request-card-container {
+  max-width: 125rem;
+  width: 100%;
+  height: 33.4rem;
+  background-color: var(--extra-light-gray);
+  border-radius: 0.8rem;
+  margin-top: 5.4rem;
+  padding: 4.4rem 3.6rem;
+}
+
+.request-card-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.request-card-content img {
+  width: 24.7rem;
+  height: 24.7rem;
+}
+
+.request-card-info {
+  width: 90.2rem;
+  height: 24.7rem;
+  background-color: var(--white);
+  padding: 0 1.6rem;
+}
+
+.request-card-info h3 {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  color: var(--light-blue);
+}
+
+.request-card-info p {
+  width: 100%;
+  height: 4rem;
+  padding: 0.8rem 1rem;
+  font-size: 1.6rem;
+  border: 1px solid var(--light-gray);
+  border-radius: 0.4rem;
+  margin-top: 0.5rem;
+}
