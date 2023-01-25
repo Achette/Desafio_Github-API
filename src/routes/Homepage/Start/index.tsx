@@ -15,10 +15,15 @@ export const Start = () => {
   const fetchUser = React.useCallback(async () => {
     if (user !== "") {
       setError(false);
-      await ApiGithub.getByUserName(user)
+      // --> PROMISE
+    /*   await ApiGithub.getByUserName(user)
         .then((response) => response.data)
         .then((res) => setData(res))
-        .catch((error) => setError(true));
+        .catch((error) => setError(true)); */
+
+        // --> async/await
+        const loadedUser = await ApiGithub.getByUserName(user)
+        setData(loadedUser)
     }
   }, [user]);
 
